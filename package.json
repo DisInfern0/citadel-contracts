@@ -1,0 +1,31 @@
+{
+  "name": "citadel-contracts",
+  "version": "1.0.0",
+  "description": "Public repository for all CITADEL ERC-20 &amp; ERC-721 contracts.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iammaxdemian/citadel-contracts.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iammaxdemian/citadel-contracts/issues"
+  },
+  "homepage": "https://github.com/iammaxdemian/citadel-contracts#readme",
+  "dependencies": {
+    "@openzeppelin/test-helpers": "^0.5.15",
+    "chai": "^4.3.6",
+    "ethereum-waffle": "^3.4.4",
+    "mocha": "^10.0.0"
+  },
+  "devDependencies": {
+    "jest": "^28.1.1"
+  }
+}
