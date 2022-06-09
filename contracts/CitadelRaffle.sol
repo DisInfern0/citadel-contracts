@@ -10,7 +10,7 @@ contract CitadelRaffle is Ownable {
     }
 
     function random() private view returns(uint) {
-        return uint(keccak256(abi.encodePacked(block.difficulty, now, players)));
+        return uint(keccak256(abi.encodePacked(block.difficulty, now, MIN, MAX)));
     }
 
     function updateParameters(uint256 _min, uint256 _max) public onlyOwner {
